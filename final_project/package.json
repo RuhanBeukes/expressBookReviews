@@ -1,11 +1,11 @@
 {
-  "name": "bookshop",
+  "name": "expressBookReviews",
   "version": "1.0.1",
-  "description": "",
+  "description": "Book Reviews Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +14,10 @@
     "express": "^4.18.1",
     "express-session": "^1.17.3",
     "jsonwebtoken": "^8.5.1",
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.19"
   }
 }
+
